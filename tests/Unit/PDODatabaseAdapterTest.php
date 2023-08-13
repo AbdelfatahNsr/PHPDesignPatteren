@@ -1,10 +1,11 @@
 <?php
     require_once "../app/PDODatabaseAdapter.php";
+    require_once "../../vendor/autoload.php";
+    
     use PHPUnit\Framework\TestCase;
     use PHPUnit\Framework\MockObject\MockObject;
     
-    require_once '../app/PDODatabaseAdapter.php'; // Adjust the path as needed
-    
+   
     class PDODatabaseAdapterTest extends TestCase {
         /**
          * @var PDODatabaseAdapter|MockObject
