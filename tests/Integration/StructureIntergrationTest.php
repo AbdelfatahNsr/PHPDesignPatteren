@@ -1,6 +1,8 @@
 <?php
 use PHPUnit\Framework\TestCase;
 
+
+
 class StructureIntegrationTest extends TestCase
 {
     public function testStructureCreation()
