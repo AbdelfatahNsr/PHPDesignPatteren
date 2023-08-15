@@ -34,3 +34,4 @@
         }
 
     }
+// ./vendor/bin/phpunit tests/PersonModelTest.php
